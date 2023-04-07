@@ -45,6 +45,18 @@ const Navbar = () => {
             Login
           </Link>
         </li>}
+
+        {
+          email && 
+          <li>
+          <Link
+            className='border border-black px-2 py-1 rounded-full hover:border-primary hover:text-white hover:bg-primary hover:px-4 transition-all '
+            to='/dashboard'
+          >
+            Login
+          </Link>
+        </li>
+        }
       </ul>
     </nav>
   );
